@@ -3,5 +3,5 @@
 #include "game_manager.h"
 
 int main() {
-	GameManager* instance = GameManager::instance();
+	GameManager* instance = GameManager::instance(); //´´½¨ÊµÀı
 }

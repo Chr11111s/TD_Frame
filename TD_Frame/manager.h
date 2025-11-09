@@ -18,6 +18,6 @@ protected:
 };
 
 template<typename T>
-T* Manager<T>::manager = nullptr;
+T* Manager<T>::manager = nullptr; //类内静态变量强制在类外定义(T* Manager<T>::manager)并初始化(=nullptr)
 
 #endif
