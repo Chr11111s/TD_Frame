@@ -16,6 +16,9 @@
     <Filter Include="源文件\cJSON">
       <UniqueIdentifier>{23c04245-0fe8-4f7a-93df-834147d51466}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\manager">
+      <UniqueIdentifier>{921d45e9-da5b-4058-a6e1-5b9839047d07}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,5 +27,13 @@
     <ClCompile Include="..\ThirdParty\cJSON\cJSON.c">
       <Filter>源文件\cJSON</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="game_manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
