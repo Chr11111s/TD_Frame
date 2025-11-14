@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\config_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|solutionrelative:config_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\wave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|solutionrelative:wave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\enemy_type.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|solutionrelative:enemy_type.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "enemy_type.h",
-              "DocumentMoniker": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\enemy_type.h",
-              "RelativeDocumentMoniker": "enemy_type.h",
-              "ToolTip": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\enemy_type.h",
-              "RelativeToolTip": "enemy_type.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T03:13:58.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "wave.h",
-              "DocumentMoniker": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\wave.h",
-              "RelativeDocumentMoniker": "wave.h",
-              "ToolTip": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\wave.h",
-              "RelativeToolTip": "wave.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T06:07:01.56Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -58,9 +24,9 @@
               "RelativeDocumentMoniker": "config_manager.h",
               "ToolTip": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\config_manager.h",
               "RelativeToolTip": "config_manager.h",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAC8BAAAAAAAAAADwvz4BAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-13T03:00:36.459Z",
+              "WhenOpened": "2025-11-14T13:18:29.602Z",
               "EditorCaption": ""
             }
           ]
