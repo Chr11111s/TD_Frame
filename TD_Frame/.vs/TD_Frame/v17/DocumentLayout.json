@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\config_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|solutionrelative:config_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\goblin_enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|solutionrelative:goblin_enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "config_manager.h",
-              "DocumentMoniker": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\config_manager.h",
-              "RelativeDocumentMoniker": "config_manager.h",
-              "ToolTip": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\config_manager.h",
-              "RelativeToolTip": "config_manager.h",
-              "ViewState": "AgIAAC8BAAAAAAAAAADwvz4BAAAdAAAAAAAAAA==",
+              "Title": "goblin_enemy.h",
+              "DocumentMoniker": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\goblin_enemy.h",
+              "RelativeDocumentMoniker": "goblin_enemy.h",
+              "ToolTip": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\goblin_enemy.h",
+              "RelativeToolTip": "goblin_enemy.h",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-14T13:18:29.602Z",
+              "WhenOpened": "2025-11-15T12:57:23.259Z",
               "EditorCaption": ""
             }
           ]
