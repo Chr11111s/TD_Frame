@@ -3,6 +3,8 @@
 
 #include "manager.h"
 #include "config_manager.h"
+#include "enemy_manager.h"
+#include "wave_manager.h"
 #include "resources_manager.h"
 
 #include <SDL.h>
@@ -92,13 +94,22 @@ private:
 	}
 
 	void on_update(double delta) {
+		static bool is_game_over_last_tick = false;
+		static ConfigManager* instance = ConfigManager::instance();
 
+		if (HomeManager::instance()->get_current_hp_num() <= 0)
+		{
+			instance->is_game_win = false;
+			instance->is_game_over = true;
+		}
 	}
 
 	void on_render() {
 		static ConfigManager* instance = ConfigManager::instance();
 		static SDL_Rect& rect_dst = instance->rect_tile_map;
 		SDL_RenderCopy(renderer, tex_tile_map, nullptr, &rect_dst);
+
+		EnemyManager::instance()->on_render(renderer);
 	}
 
 	bool generate_tile_map_texture() {
