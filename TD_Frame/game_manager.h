@@ -6,6 +6,9 @@
 #include "enemy_manager.h"
 #include "wave_manager.h"
 #include "resources_manager.h"
+#include "bullet_manager.h"
+#include "tower_manager.h"
+#include "status_bar.h"
 
 #include <SDL.h>
 #include <SDL_mixer.h>
@@ -64,6 +67,8 @@ protected:
 		init_assert(ResourcesManager::instance()->load_from_file(renderer), u8"加载游戏资源失败！");
 
 		init_assert(generate_tile_map_texture(), u8"生成瓦片地图纹理失败！");
+
+		status_bar.set_position(15, 15);
 	}
 	~GameManager() {
 		SDL_DestroyRenderer(renderer);
@@ -76,6 +81,8 @@ protected:
 private:
 	SDL_Event event;
 	bool is_quit = false;
+
+	StatusBar status_bar;
 
 	SDL_Window* window = nullptr;
 	SDL_Renderer* renderer = nullptr;
@@ -94,13 +101,14 @@ private:
 	}
 
 	void on_update(double delta) {
-		static bool is_game_over_last_tick = false;
 		static ConfigManager* instance = ConfigManager::instance();
 
-		if (HomeManager::instance()->get_current_hp_num() <= 0)
-		{
-			instance->is_game_win = false;
-			instance->is_game_over = true;
+		if (!instance->is_game_over) {
+			status_bar.on_update(renderer);
+			WaveManager::instance()->on_update(delta);
+			EnemyManager::instance()->on_update(delta);
+			BulletManager::instance()->on_update(delta);
+			TowerManager::instance()->on_update(delta);
 		}
 	}
 
@@ -110,6 +118,12 @@ private:
 		SDL_RenderCopy(renderer, tex_tile_map, nullptr, &rect_dst);
 
 		EnemyManager::instance()->on_render(renderer);
+		BulletManager::instance()->on_render(renderer);
+		TowerManager::instance()->on_render(renderer);
+
+		if (!instance->is_game_over) {
+			status_bar.on_render(renderer);
+		}
 	}
 
 	bool generate_tile_map_texture() {
