@@ -158,5 +158,17 @@
     <ClInclude Include="panel.h">
       <Filter>头文件\ui\panel</Filter>
     </ClInclude>
+    <ClInclude Include="place_panel.h">
+      <Filter>头文件\ui\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="upgrade_panel.h">
+      <Filter>头文件\ui\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="player_manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="banner.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

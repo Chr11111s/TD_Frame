@@ -4,6 +4,7 @@
 #include "coin_manager.h"
 #include "home_manager.h"
 #include "resources_manager.h"
+#include "player_manager.h"
 
 #include <SDL.h>
 #include <string>
@@ -91,7 +92,8 @@ public:
 		rect_dst.y += width_border_mp_bar;
 		rect_dst.w = width_mp_bar - 2 * width_border_mp_bar;
 		rect_dst.h = height_mp_bar - 2 * width_border_mp_bar;
-		roundedBoxRGBA(renderer, rect_dst.x, rect_dst.y, rect_dst.x + rect_dst.w, rect_dst.y + rect_dst.h, 2,
+		double process = PlayerManager::instance()->get_current_mp() / 100;
+		roundedBoxRGBA(renderer, rect_dst.x, rect_dst.y, rect_dst.x + (int)(rect_dst.w * process), rect_dst.y + rect_dst.h, 2,
 			color_mp_bar_foredground.r, color_mp_bar_foredground.g, color_mp_bar_foredground.b, color_mp_bar_foredground.a);
 	}
 

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\panel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|solutionrelative:panel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\game_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|solutionrelative:game_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\banner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{944B6C89-E038-45E3-AC98-6EEA7A13680C}|TD_Frame.vcxproj|solutionrelative:banner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "panel.h",
-              "DocumentMoniker": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\panel.h",
-              "RelativeDocumentMoniker": "panel.h",
-              "ToolTip": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\panel.h",
-              "RelativeToolTip": "panel.h",
-              "ViewState": "AgIAALgAAAAAAAAAAAAgwOgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "banner.h",
+              "DocumentMoniker": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\banner.h",
+              "RelativeDocumentMoniker": "banner.h",
+              "ToolTip": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\banner.h",
+              "RelativeToolTip": "banner.h",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwC8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-17T13:20:36.733Z",
+              "WhenOpened": "2025-11-18T08:49:17.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "game_manager.h",
               "DocumentMoniker": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\game_manager.h",
               "RelativeDocumentMoniker": "game_manager.h",
               "ToolTip": "C:\\Users\\surface\\Desktop\\TD_Frame\\TD_Frame\\game_manager.h",
               "RelativeToolTip": "game_manager.h",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAH4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-17T11:31:04.769Z",
               "EditorCaption": ""

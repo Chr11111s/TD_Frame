@@ -136,6 +136,7 @@
     <ClInclude Include="arrow_bullet.h" />
     <ClInclude Include="axeman_tower.h" />
     <ClInclude Include="axe_bullet.h" />
+    <ClInclude Include="banner.h" />
     <ClInclude Include="bullet.h" />
     <ClInclude Include="bullet_manager.h" />
     <ClInclude Include="bullet_type.h" />
@@ -155,6 +156,8 @@
     <ClInclude Include="manager.h" />
     <ClInclude Include="map.h" />
     <ClInclude Include="panel.h" />
+    <ClInclude Include="place_panel.h" />
+    <ClInclude Include="player_manager.h" />
     <ClInclude Include="resources_manager.h" />
     <ClInclude Include="route.h" />
     <ClInclude Include="shell_bullet.h" />
@@ -166,6 +169,7 @@
     <ClInclude Include="tower.h" />
     <ClInclude Include="tower_manager.h" />
     <ClInclude Include="tower_type.h" />
+    <ClInclude Include="upgrade_panel.h" />
     <ClInclude Include="vector2.h" />
     <ClInclude Include="wave.h" />
     <ClInclude Include="wave_manager.h" />
